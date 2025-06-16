@@ -1,7 +1,7 @@
-🚗 Car Trader – MERN Stack + AI-Powered Car Marketplace  
+#🚗 Car Trader – MERN Stack + AI-Powered Car Marketplace  
 An advanced full-stack platform for listing, discovering, and booking used cars — now enhanced with a content-based recommendation system trained on real-world car data.
 
-🔗 Live Demo: https://cartrader-frontend.onrender.com *(replace with actual if hosted)*
+🔗 Live Demo: 
 
 ---
 
@@ -44,11 +44,3 @@ A content-based recommender system using:
 - Cosine Similarity for computing similar cars  
 - Pretrained on 1000+ real car listings (CarDekho Kaggle Dataset)  
 - Hosted as a microservice (Flask API via Render)
-
-**Example Output:**  
-_"Users viewing a 2018 Swift Petrol are also shown other budget hatchbacks with similar year and transmission."_  
-
----
-
-📂 Project Structure
-
