@@ -1,54 +1,54 @@
-# 🚗 Car Trader – Full-Stack Car Marketplace with AI-Powered Recommendations
+🚗 Car Trader – MERN Stack + AI-Powered Car Marketplace  
+An advanced full-stack platform for listing, discovering, and booking used cars — now enhanced with a content-based recommendation system trained on real-world car data.
 
-A full-stack MERN-based platform for buying and selling cars, enhanced with an AI-driven content-based recommendation system. Inspired by platforms like OLX and CarDekho, Car Trader enables seamless car listing, booking, and discovery.
-
----
-
-## ⚙️ Tech Stack
-
-### 🖥️ Frontend
-- **React.js** – Component-based architecture for fast UI rendering
-- **Tailwind CSS** – Utility-first styling for responsive design
-- **React Router** – For seamless SPA navigation
-- **Context API + LocalStorage** – For global auth/session state management
-
-### 🛠️ Backend
-- **Node.js + Express.js** – RESTful API and server-side logic
-- **JWT Authentication** – Secure, role-based access control (Buyer/Seller)
-- **MongoDB** – NoSQL database for users, cars, bookings, and favorites
-- **Cloudinary** – For uploading and serving car images
-
-### 🧠 AI/ML Microservice
-- **Flask + Scikit-learn** – Lightweight Python API using Flask
-- **Content-Based Filtering** – Bag-of-Words + Cosine Similarity on car metadata
-- **ML API** hosted as a microservice (via Render or PythonAnywhere)
-- **Vectorization** – Preprocessed with `CountVectorizer`
-- **Model I/O** – Stored with `joblib` as `vector_matrix.pkl` and `vectorizer.pkl`
+🔗 Live Demo: https://cartrader-frontend.onrender.com *(replace with actual if hosted)*
 
 ---
 
-## 🔑 Core Features
+✨ Key Features  
+📤 Post & manage car listings (CRUD operations for sellers)  
+🔍 Filter cars by price, year, fuel type, and more  
+📌 Add cars to wishlist/favorites  
+📅 Book test drives / viewings with one-click booking  
+📦 View your bookings and received bookings  
+🔒 Role-based JWT auth (Buyer/Seller)  
+🤖 AI-powered “Similar Cars” suggestion system  
+🖼️ Car image uploads via Cloudinary  
+📱 Fully responsive mobile-friendly UI  
 
-### 👤 User Access
-- JWT-based Login/Register flow
-- Role-Based Access Control: Buyer or Seller
+---
 
-### 🚗 Car Listings
-- Full **CRUD** (Create, Read, Update, Delete) operations for sellers
-- Image upload via Cloudinary
-- View car details and specs
+🛠️ Tech Stack
 
-### 🔍 Discovery & Search
-- Filter cars by price, model, year, fuel type, etc.
-- Save cars to **Favorites**
-- Book test drives or purchase viewings
+**Frontend**  
+- React.js – Component-driven UI  
+- Tailwind CSS – Utility-first styling  
+- React Router – SPA routing  
+- Context API + LocalStorage – Global session state  
 
-### 🔄 Recommender System
-- ML model trained on 1000+ car instances (CarDekho Kaggle dataset)
-- Shows **“Similar Cars You Might Like”** on each car detail page
-- AI model accessed via REST API from backend and consumed in frontend
+**Backend**  
+- Node.js + Express.js – Secure and scalable REST APIs  
+- JWT Authentication – Role-based access control  
+- Cloudinary – Car image management  
 
-### 📦 Additional
-- View all your bookings and received bookings
-- Responsive UI optimized for mobile and desktop
-- Proper error handling with 404/500 fallback routes
+**Database**  
+- MongoDB – Flexible document storage for cars, users, bookings, favorites  
+
+---
+
+🧠 AI-Powered Insight  
+A content-based recommender system using:
+
+- Scikit-learn + Flask API  
+- CountVectorizer for text vectorization  
+- Cosine Similarity for computing similar cars  
+- Pretrained on 1000+ real car listings (CarDekho Kaggle Dataset)  
+- Hosted as a microservice (Flask API via Render)
+
+**Example Output:**  
+_"Users viewing a 2018 Swift Petrol are also shown other budget hatchbacks with similar year and transmission."_  
+
+---
+
+📂 Project Structure
+
