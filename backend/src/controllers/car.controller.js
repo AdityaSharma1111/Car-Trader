@@ -60,7 +60,7 @@ export const createCar = async (req, res) => {
 
   try {
     // Call Python Flask API to get similar car IDs
-    const { data } = await axios.post("http://127.0.0.1:5000/getSimilarCars", {
+    const { data } = await axios.post("https://car-trader-ml-api.onrender.com/getSimilarCars", {
       name: name.toLowerCase().trim(),
       year,
       sellingPrice,
