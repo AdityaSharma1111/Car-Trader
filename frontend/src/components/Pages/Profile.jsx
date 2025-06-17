@@ -95,9 +95,6 @@ function Profile() {
         {/* Left column */}
         <div className="lg:col-span-1 space-y-8">
           <div className="bg-white rounded-2xl shadow-md p-6 text-center relative">
-            <button className="absolute top-4 right-4 text-gray-400 hover:text-indigo-600">
-              <PencilSquareIcon className="h-6 w-6" />
-            </button>
             <img
               className="w-28 h-28 rounded-full mx-auto mb-4 border-4 border-indigo-100"
               src={`https://ui-avatars.com/api/?name=${user.fullName}&background=random&font-size=0.33`}
